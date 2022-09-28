@@ -1,9 +1,10 @@
 import "./App.css";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
-      <button className="btn btn-error">Error</button>
+      <Nav></Nav>
     </div>
   );
 }
