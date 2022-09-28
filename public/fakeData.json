@@ -2,37 +2,37 @@
   {
     "id": "633487a450f1f2fdeaecdfa8",
     "picture": "./images/html.png",
-    "time": 2,
+    "time": 20,
     "name": "HTML"
   },
   {
     "id": "633487a43ce927eacfe8880e",
     "picture": "./images/css.jpg",
-    "time": 2,
+    "time": 30,
     "name": "CSS"
   },
   {
     "id": "633487a4283db9fad2ab2970",
     "picture": "./images/tailwind.png",
-    "time": 3,
+    "time": 35,
     "name": "TailWind CSS"
   },
   {
     "id": "633487a40637d6c98357771f",
     "picture": "./images/js.jpg",
-    "time": 3,
+    "time": 43,
     "name": "JavaScript"
   },
   {
     "id": "633487a43754417135e1f29e",
     "picture": "./images/react.png",
-    "time": 1,
+    "time": 50,
     "name": "React JS"
   },
   {
     "id": "633487a486a97b8eb96cee77",
     "picture": "./images/node.jpg",
-    "time": 1,
+    "time": 60,
     "name": "Node JS"
   }
 ]

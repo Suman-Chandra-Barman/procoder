@@ -1,6 +1,10 @@
 import React from "react";
 
 const Project = (props) => {
+  const { workingTime, setWorkingTime } = props;
+  const calculateWorkingTime = (time) => {
+    setWorkingTime(workingTime + time);
+  };
   const { name, time, picture } = props.project;
   return (
     <div>
@@ -10,9 +14,12 @@ const Project = (props) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p>Time required: {time}hour</p>
+          <p>Time required: {time}Min</p>
           <div className="card-actions">
-            <button className="btn btn-sm btn-primary w-full">
+            <button
+              onClick={() => calculateWorkingTime(time)}
+              className="btn btn-sm btn-primary w-full"
+            >
               Add to list
             </button>
           </div>

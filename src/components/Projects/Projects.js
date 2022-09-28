@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Project/Project";
 
-const Projects = ({ projects }) => {
+const Projects = ({ projects, workingTime, setWorkingTime }) => {
   return (
     <div>
       <div className="text-md font-bold text-xl ml-2">
@@ -9,7 +9,12 @@ const Projects = ({ projects }) => {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mt-7">
         {projects.map((project) => (
-          <Project key={project.id} project={project}></Project>
+          <Project
+            key={project.id}
+            project={project}
+            workingTime={workingTime}
+            setWorkingTime={setWorkingTime}
+          ></Project>
         ))}
       </div>
     </div>
