@@ -13,17 +13,15 @@ function App() {
   return (
     <div className="App">
       <main className="flex">
-        <section className="w-3/4 border-4 border-red-600 bg-slate-100">
+        <section className="w-1/2 sm:w-2/3 md:w-3/4 bg-slate-100">
           <div className="lg:w-[90%] mx-auto mt-8">
             <Nav></Nav>
-            <div className="mt-10">
+            <div>
               <Projects projects={projects}></Projects>
             </div>
           </div>
         </section>
-        <aside>
-          <h1>This is Side part kdjkfjkajdfkjkfdj</h1>
-        </aside>
+        <aside></aside>
       </main>
     </div>
   );
