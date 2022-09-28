@@ -2,6 +2,8 @@ import "./App.css";
 import Nav from "./components/Nav/Nav";
 import { useEffect, useState } from "react";
 import Projects from "./components/Projects/Projects";
+import CoderInfo from "./components/Projects/CoderInfo/CoderInfo";
+import Break from "./components/Break/Break";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -21,7 +23,10 @@ function App() {
             </div>
           </div>
         </section>
-        <aside></aside>
+        <aside className="p-5">
+          <CoderInfo></CoderInfo>
+          <Break></Break>
+        </aside>
       </main>
     </div>
   );
