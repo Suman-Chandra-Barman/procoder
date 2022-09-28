@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div>
       <nav>
-        <div className="navbar bg-green-300">
+        <div className="navbar">
           <a href="#logo" className="btn btn-ghost normal-case text-xl">
             <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             <span className="ml-4">ProCoder</span>
