@@ -6,18 +6,19 @@ const Break = ({ setTimeBreak }) => {
     setTimeBreak(time);
   };
   return (
-    <div>
-      <div className="btn-group text-center gap-1 mt-10">
-        <button onClick={() => countBreakTime(30)} className="btn">
+    <div className=" mt-10">
+      <h4 className="font-semibold mb-5">Add A Break</h4>
+      <div className="btn-group text-center">
+        <button onClick={() => countBreakTime(30)} className="btn btn-primary">
           30
         </button>
-        <button onClick={() => countBreakTime(35)} className="btn">
+        <button onClick={() => countBreakTime(35)} className="btn btn-primary">
           35
         </button>
-        <button onClick={() => countBreakTime(45)} className="btn">
+        <button onClick={() => countBreakTime(45)} className="btn btn-primary">
           45
         </button>
-        <button onClick={() => countBreakTime(55)} className="btn">
+        <button onClick={() => countBreakTime(55)} className="btn btn-primary">
           55
         </button>
       </div>
