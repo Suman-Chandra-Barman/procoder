@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import { useEffect, useState } from "react";
 import Projects from "./components/Projects/Projects";
 import Information from "./components/Information/Information";
+import Questions from "./components/Questions/Questions";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -16,7 +17,7 @@ function App() {
     <div className="App">
       <main className="flex justify-between">
         <section className="w-1/2 sm:w-2/3 md:w-3/4 bg-slate-100">
-          <div className="lg:w-[90%] mx-auto mt-8">
+          <div className="lg:w-[90%] mx-auto my-8">
             <Nav></Nav>
             <div>
               <Projects
@@ -27,10 +28,11 @@ function App() {
             </div>
           </div>
         </section>
-        <aside className="p-4">
+        <aside className="p-4 sticky top-0">
           <Information workingTime={workingTime}></Information>
         </aside>
       </main>
+      <Questions></Questions>
     </div>
   );
 }
