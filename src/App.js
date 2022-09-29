@@ -15,9 +15,9 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <main className="flex justify-between">
-        <section className="w-1/2 sm:w-2/3 md:w-3/4 bg-slate-100">
-          <div className="lg:w-[90%] mx-auto my-8">
+      <main className="grid lg:flex justify-center md:justify-between">
+        <section className="sm:w-2/3 md:w-3/4 bg-slate-100">
+          <div className="w-100 lg:w-[90%] mx-auto my-8">
             <Nav></Nav>
             <div>
               <Projects

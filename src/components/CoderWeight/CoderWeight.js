@@ -3,7 +3,7 @@ import React from "react";
 const CoderWeight = () => {
   return (
     <div className="mt-10">
-      <div className="stats stats-vertical lg:stats-horizontal shadow">
+      <div className="stats stats-horizontal shadow">
         <div className="stat">
           <div className="text-xl font-semibold">68KG</div>
           <div className="stat-title text-sm">Weight</div>
