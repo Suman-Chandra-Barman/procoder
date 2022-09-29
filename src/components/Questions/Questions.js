@@ -9,7 +9,7 @@ const Questions = () => {
   const ans2 =
     "Props are used to pass data from one component to another.The state is a local data storage that is local to the component only and cannot be passed to other components.The this.setState property is used to update the state values in the component.";
   const question3 = "3. What is useEffect used for other than loading data?";
-  const ans3 = ` Validating input field, live filtering, trigger animation on new array value, update paragraph list on fetched API data update, updating fetched API data to get BTC updated price, setting up a subscription, manually changing the DOM in React, setInterval and other outside work`;
+  const ans3 = ` 1. Validating input field 2. live filtering 3. trigger animation on new array value 4. update paragraph list on fetched API data update 5. updating fetched API data to get BTC updated price 6. setting up a subscription 7. manually changing the DOM in React 8. setInterval and other outside work`;
 
   return (
     <div className="my-10 md:w-[90%] mx-auto">
